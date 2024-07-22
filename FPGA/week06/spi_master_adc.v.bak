@@ -1,0 +1,92 @@
+module spi_master_adc(
+    input clk,
+    input n_rst,
+    input n_start,
+    input sdata,
+    output reg sclk,
+    output reg cs_n,
+    output [7:0] led
+);
+reg [7:0] data_buffer;
+reg sclk_rise;
+reg [4:0] cnt;
+reg [4:0] cnt_sclk;
+
+
+
+// start signal
+always @(posedge clk or negedge n_rst)
+if(!n_rst) begin
+    cs_n <= 1'b1;
+end
+else begin
+    cs_n <= (n_start == 1'b0) ? 1'b0 : (cnt_sclk == 5'h10) ? 1'b1 : cs_n;
+end
+
+// sclk 만들기
+always @(posedge clk or negedge n_rst)
+if(!n_rst) begin
+    cnt <= 5'h0;
+end
+else begin
+    cnt <= (cs_n == 1'b1) ? 5'h00 : (cnt <= 5'h19) ? cnt + 5'h01 : (cnt == 5'h1a) ? 5'h00 : cnt;  
+end
+
+// sclk의 high low 만들기
+always @(posedge clk or negedge n_rst)
+if(!n_rst) begin
+    sclk <= 1'b1;
+end
+else begin
+        if(cnt >= 5'h00 && cnt <= 5'h0b) begin
+            sclk <= 1'b1;
+        end
+        else if(cnt >= 5'h0c && cnt <= 5'h19) begin
+            sclk <= 1'b0;
+        end
+        else 
+            sclk <= sclk;
+end
+
+// sclk_rise 만들기
+always @(posedge clk or negedge n_rst)
+if(!n_rst) begin
+    sclk_rise <= 1'b0;
+end
+else begin
+    if(cnt == 5'h19) begin
+        sclk_rise <= 1'b1;
+    end
+    else
+        sclk_rise <= 1'b0;
+end
+
+
+// cnt_sclk counter
+always @(posedge clk or negedge n_rst)
+if(!n_rst) begin
+    cnt_sclk <= 5'h00;
+end
+else begin
+    if(sclk_rise == 1'b1 && cnt_sclk <= 5'hf) begin
+        cnt_sclk <= cnt_sclk + 5'h01;
+    end
+    else if(cnt_sclk == 5'h10) begin
+        cnt_sclk <= 5'h00;
+    end
+    else
+        cnt_sclk <= cnt_sclk;
+end
+
+// data_buffer에 값 넣기
+always @(posedge clk or negedge n_rst)
+if(!n_rst)begin
+    data_buffer <= 8'h00;
+end
+else begin
+    data_buffer <= (sclk_rise == 1'b1) ? (cnt_sclk >= 5'h03 && cnt_sclk <= 5'h0a) ? {data_buffer[6:0], sdata} : data_buffer : data_buffer; 
+end
+
+assign led = data_buffer;
+
+endmodule

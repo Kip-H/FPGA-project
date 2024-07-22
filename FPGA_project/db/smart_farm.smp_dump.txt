@@ -1,0 +1,25 @@
+
+State Machine - |top|byte2ascill:u_byte2ascill|c_state
+Name c_state.S4 c_state.W3 c_state.S3 c_state.W2 c_state.S2 c_state.W1 c_state.S1 c_state.IDLE c_state.W4 
+c_state.IDLE 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 1 1 0 
+c_state.W1 0 0 0 0 0 1 0 1 0 
+c_state.S2 0 0 0 0 1 0 0 1 0 
+c_state.W2 0 0 0 1 0 0 0 1 0 
+c_state.S3 0 0 1 0 0 0 0 1 0 
+c_state.W3 0 1 0 0 0 0 0 1 0 
+c_state.S4 1 0 0 0 0 0 0 1 0 
+c_state.W4 0 0 0 0 0 0 0 1 1 
+
+State Machine - |top|Controller:u_Controller|c_state
+Name c_state.DONE c_state.RUNNING_2 c_state.SETTING_2 c_state.FND2 c_state.LIGHT_READ_2 c_state.RUNNING c_state.SETTING c_state.FND1 c_state.LIGHT_READ c_state.IDLE 
+c_state.IDLE 0 0 0 0 0 0 0 0 0 0 
+c_state.LIGHT_READ 0 0 0 0 0 0 0 0 1 1 
+c_state.FND1 0 0 0 0 0 0 0 1 0 1 
+c_state.SETTING 0 0 0 0 0 0 1 0 0 1 
+c_state.RUNNING 0 0 0 0 0 1 0 0 0 1 
+c_state.LIGHT_READ_2 0 0 0 0 1 0 0 0 0 1 
+c_state.FND2 0 0 0 1 0 0 0 0 0 1 
+c_state.SETTING_2 0 0 1 0 0 0 0 0 0 1 
+c_state.RUNNING_2 0 1 0 0 0 0 0 0 0 1 
+c_state.DONE 1 0 0 0 0 0 0 0 0 1 

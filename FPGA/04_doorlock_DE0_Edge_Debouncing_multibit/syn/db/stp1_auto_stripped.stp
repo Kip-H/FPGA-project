@@ -1,0 +1,875 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C16/EP4CE15 (0x020F20DD)" sof_file="../output_files/doorlock.sof">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2024/03/17 18:46:27  #0">
+      <clock name="clk" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="AUTO" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="4096" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="bt[0]" tap_mode="classic"/>
+          <wire name="bt[1]" tap_mode="classic"/>
+          <wire name="bt[2]" tap_mode="classic"/>
+          <wire name="bt[3]" tap_mode="classic"/>
+          <wire name="bt[4]" tap_mode="classic"/>
+          <wire name="bt[5]" tap_mode="classic"/>
+          <wire name="bt[6]" tap_mode="classic"/>
+          <wire name="bt[7]" tap_mode="classic"/>
+          <wire name="bt[8]" tap_mode="classic"/>
+          <wire name="bt[9]" tap_mode="classic"/>
+          <wire name="btstar" tap_mode="classic"/>
+          <wire name="c_state.S_FIRST" tap_mode="classic"/>
+          <wire name="c_state.S_IDLE" tap_mode="classic"/>
+          <wire name="c_state.S_LAST" tap_mode="classic"/>
+          <wire name="c_state.S_OPEN" tap_mode="classic"/>
+          <wire name="c_state.S_RAND" tap_mode="classic"/>
+          <wire name="led" tap_mode="classic"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="bt[0]" tap_mode="classic"/>
+          <wire name="bt[1]" tap_mode="classic"/>
+          <wire name="bt[2]" tap_mode="classic"/>
+          <wire name="bt[3]" tap_mode="classic"/>
+          <wire name="bt[4]" tap_mode="classic"/>
+          <wire name="bt[5]" tap_mode="classic"/>
+          <wire name="bt[6]" tap_mode="classic"/>
+          <wire name="bt[7]" tap_mode="classic"/>
+          <wire name="bt[8]" tap_mode="classic"/>
+          <wire name="bt[9]" tap_mode="classic"/>
+          <wire name="btstar" tap_mode="classic"/>
+          <wire name="c_state.S_FIRST" tap_mode="classic"/>
+          <wire name="c_state.S_IDLE" tap_mode="classic"/>
+          <wire name="c_state.S_LAST" tap_mode="classic"/>
+          <wire name="c_state.S_OPEN" tap_mode="classic"/>
+          <wire name="c_state.S_RAND" tap_mode="classic"/>
+          <wire name="led" tap_mode="classic"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="bt[0]" tap_mode="classic"/>
+          <wire name="bt[1]" tap_mode="classic"/>
+          <wire name="bt[2]" tap_mode="classic"/>
+          <wire name="bt[3]" tap_mode="classic"/>
+          <wire name="bt[4]" tap_mode="classic"/>
+          <wire name="bt[5]" tap_mode="classic"/>
+          <wire name="bt[6]" tap_mode="classic"/>
+          <wire name="bt[7]" tap_mode="classic"/>
+          <wire name="bt[8]" tap_mode="classic"/>
+          <wire name="bt[9]" tap_mode="classic"/>
+          <wire name="btstar" tap_mode="classic"/>
+          <wire name="c_state.S_FIRST" tap_mode="classic"/>
+          <wire name="c_state.S_IDLE" tap_mode="classic"/>
+          <wire name="c_state.S_LAST" tap_mode="classic"/>
+          <wire name="c_state.S_OPEN" tap_mode="classic"/>
+          <wire name="c_state.S_RAND" tap_mode="classic"/>
+          <wire name="led" tap_mode="classic"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <unified_setup_data_view>
+          <node name="bt" order="msb_to_lsb" state="expand" type="input pin">
+            <node data_index="9" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[9]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="9" tap_mode="classic" trigger_index="9" type="unknown"/>
+            <node data_index="8" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[8]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="8" tap_mode="classic" trigger_index="8" type="unknown"/>
+            <node data_index="7" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="bt[7]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="7" tap_mode="classic" trigger_index="7" type="unknown"/>
+            <node data_index="6" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[6]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="6" tap_mode="classic" trigger_index="6" type="unknown"/>
+            <node data_index="5" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[5]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="5" tap_mode="classic" trigger_index="5" type="unknown"/>
+            <node data_index="4" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[4]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="4" tap_mode="classic" trigger_index="4" type="unknown"/>
+            <node data_index="3" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[3]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="3" tap_mode="classic" trigger_index="3" type="unknown"/>
+            <node data_index="2" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[2]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="2" tap_mode="classic" trigger_index="2" type="unknown"/>
+            <node data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="bt[1]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
+            <node data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[0]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
+          </node>
+          <node data_index="10" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="falling edge" name="btstar" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="10" tap_mode="classic" trigger_index="10" type="unknown"/>
+          <node data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_FIRST" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="11" tap_mode="classic" trigger_index="11" type="unknown"/>
+          <node data_index="12" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_IDLE" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="12" tap_mode="classic" trigger_index="12" type="unknown"/>
+          <node data_index="13" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_LAST" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="13" tap_mode="classic" trigger_index="13" type="unknown"/>
+          <node data_index="14" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_OPEN" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="14" tap_mode="classic" trigger_index="14" type="unknown"/>
+          <node data_index="15" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_RAND" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="15" tap_mode="classic" trigger_index="15" type="unknown"/>
+          <node data_index="16" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="led" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="16" tap_mode="classic" trigger_index="16" type="unknown"/>
+        </unified_setup_data_view>
+        <data_view>
+          <bus name="bt" order="msb_to_lsb" state="expand" type="input pin">
+            <net data_index="9" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[9]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="9" tap_mode="classic" trigger_index="9" type="unknown"/>
+            <net data_index="8" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[8]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="8" tap_mode="classic" trigger_index="8" type="unknown"/>
+            <net data_index="7" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="bt[7]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="7" tap_mode="classic" trigger_index="7" type="unknown"/>
+            <net data_index="6" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[6]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="6" tap_mode="classic" trigger_index="6" type="unknown"/>
+            <net data_index="5" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[5]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="5" tap_mode="classic" trigger_index="5" type="unknown"/>
+            <net data_index="4" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[4]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="4" tap_mode="classic" trigger_index="4" type="unknown"/>
+            <net data_index="3" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[3]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="3" tap_mode="classic" trigger_index="3" type="unknown"/>
+            <net data_index="2" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[2]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="2" tap_mode="classic" trigger_index="2" type="unknown"/>
+            <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="bt[1]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
+            <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[0]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
+          </bus>
+          <net data_index="10" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="falling edge" name="btstar" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="10" tap_mode="classic" trigger_index="10" type="unknown"/>
+          <net data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_FIRST" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="11" tap_mode="classic" trigger_index="11" type="unknown"/>
+          <net data_index="12" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_IDLE" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="12" tap_mode="classic" trigger_index="12" type="unknown"/>
+          <net data_index="13" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_LAST" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="13" tap_mode="classic" trigger_index="13" type="unknown"/>
+          <net data_index="14" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_OPEN" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="14" tap_mode="classic" trigger_index="14" type="unknown"/>
+          <net data_index="15" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_RAND" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="15" tap_mode="classic" trigger_index="15" type="unknown"/>
+          <net data_index="16" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="led" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="16" tap_mode="classic" trigger_index="16" type="unknown"/>
+        </data_view>
+        <setup_view>
+          <bus name="bt" order="msb_to_lsb" state="expand" type="input pin">
+            <net data_index="9" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[9]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="9" tap_mode="classic" trigger_index="9" type="unknown"/>
+            <net data_index="8" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[8]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="8" tap_mode="classic" trigger_index="8" type="unknown"/>
+            <net data_index="7" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="bt[7]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="7" tap_mode="classic" trigger_index="7" type="unknown"/>
+            <net data_index="6" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[6]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="6" tap_mode="classic" trigger_index="6" type="unknown"/>
+            <net data_index="5" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[5]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="5" tap_mode="classic" trigger_index="5" type="unknown"/>
+            <net data_index="4" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[4]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="4" tap_mode="classic" trigger_index="4" type="unknown"/>
+            <net data_index="3" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[3]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="3" tap_mode="classic" trigger_index="3" type="unknown"/>
+            <net data_index="2" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[2]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="2" tap_mode="classic" trigger_index="2" type="unknown"/>
+            <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="bt[1]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
+            <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="bt[0]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
+          </bus>
+          <net data_index="10" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="falling edge" name="btstar" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="10" tap_mode="classic" trigger_index="10" type="unknown"/>
+          <net data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_FIRST" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="11" tap_mode="classic" trigger_index="11" type="unknown"/>
+          <net data_index="12" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_IDLE" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="12" tap_mode="classic" trigger_index="12" type="unknown"/>
+          <net data_index="13" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_LAST" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="13" tap_mode="classic" trigger_index="13" type="unknown"/>
+          <net data_index="14" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_OPEN" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="14" tap_mode="classic" trigger_index="14" type="unknown"/>
+          <net data_index="15" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="c_state.S_RAND" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="15" tap_mode="classic" trigger_index="15" type="unknown"/>
+          <net data_index="16" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="led" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="16" tap_mode="classic" trigger_index="16" type="unknown"/>
+        </setup_view>
+        <trigger_in_editor/>
+        <trigger_out_editor/>
+      </presentation>
+      <trigger CRC="F48729A" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2024/03/17 20:07:18  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="4096" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
+        <events use_custom_flow_control="no">
+          <level editor="basic_or" enabled="yes" name="condition1" type="advanced">
+            <power_up enabled="yes">
+              <power_up_expression><![CDATA[(mbpm('X',{'btstar'}) && variable(1)) || (mbpm('X',{'c_state.S_FIRST'}) && variable(1)) || (mbpm('X',{'c_state.S_IDLE'}) && variable(1)) || (mbpm('X',{'c_state.S_LAST'}) && variable(1)) || (mbpm('X',{'c_state.S_OPEN'}) && variable(1)) || (mbpm('X',{'c_state.S_RAND'}) && variable(1)) || (mbpm('X',{'led'}) && variable(1)) || (('bt':({'bt[9]','bt[8]','bt[7]','bt[6]','bt[5]','bt[4]','bt[3]','bt[2]','bt[1]','bt[0]'}) == variable(b0000000000)) && variable(0)) || (mbpm('X',{'bt[9]'}) && variable(1)) || (mbpm('X',{'bt[8]'}) && variable(1)) || (mbpm('X',{'bt[7]'}) && variable(1)) || (mbpm('X',{'bt[6]'}) && variable(1)) || (mbpm('X',{'bt[5]'}) && variable(1)) || (mbpm('X',{'bt[4]'}) && variable(1)) || (mbpm('X',{'bt[3]'}) && variable(1)) || (mbpm('X',{'bt[2]'}) && variable(1)) || (mbpm('X',{'bt[1]'}) && variable(1)) || (mbpm('X',{'bt[0]'}) && variable(1))]]>
+              </power_up_expression>
+            </power_up>
+            <expression><![CDATA[(mbpm('F',{'btstar'}) && variable(1)) || (mbpm('X',{'c_state.S_FIRST'}) && variable(0)) || (mbpm('X',{'c_state.S_IDLE'}) && variable(0)) || (mbpm('X',{'c_state.S_LAST'}) && variable(0)) || (mbpm('X',{'c_state.S_OPEN'}) && variable(0)) || (mbpm('X',{'c_state.S_RAND'}) && variable(0)) || (mbpm('X',{'led'}) && variable(0)) || (('bt':({'bt[9]','bt[8]','bt[7]','bt[6]','bt[5]','bt[4]','bt[3]','bt[2]','bt[1]','bt[0]'}) == variable(b0000000000)) && variable(0)) || (mbpm('X',{'bt[9]'}) && variable(0)) || (mbpm('X',{'bt[8]'}) && variable(0)) || (mbpm('R',{'bt[7]'}) && variable(1)) || (mbpm('X',{'bt[6]'}) && variable(0)) || (mbpm('X',{'bt[5]'}) && variable(0)) || (mbpm('X',{'bt[4]'}) && variable(0)) || (mbpm('X',{'bt[3]'}) && variable(0)) || (mbpm('X',{'bt[2]'}) && variable(0)) || (mbpm('R',{'bt[1]'}) && variable(1)) || (mbpm('X',{'bt[0]'}) && variable(0))]]>
+            </expression>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>11111111111111111
+            <pwr_up_transitional>11111111111111111</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="126976"/>
+    </position_info>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <embedded_sof_files>
+    <embedded_sof_file id_crc_pairs="30006E00,0F48729A" name="doorlock.sof" size="500043">eJzsXQlgFEXWru7pSTohQCcEiMpRRJSAIIOwgopSCeEUNSIIrteg6ILiigrK
+uiqVgBARMYsX3uO5eK14o+sxKKuu5/7eurrG+1pZdJVFUfirqo/pmZ5MV/d0
+z0xIf5Cema7q16+6jq9eHa+POGw8oCglfwI4lBwPXzjrzAULz4KTJsF9Rwyp
+m7sAjj39tPlz5510JjzypDPPmnv67+Gw4XsP2zsC6xbOnTcbDtt3HzgsMnSf
+4UP3iQwbDo+YDGecdAIcN3vuAhIViKAzkTmuYfjYYfuOHzFqxNh9QQgcTE7V
+HLlv7fiRDXVjxw2bctQRR8z93e9nzYPTZs0/wDg/1np+VJrzA0EFqCECd3Te
+Wrx1B8MXOwwUb53A0oe30iM90w0oQAUk/2iqm7/sBvqDozprp7Vwepx90lnk
+RsfPmXXWnL1PmPt7cqbPUz23nPvRkJF91tI4d/xxy0lA2JXFfz4EwOkLF8xf
+uOD4k8nTOmvo7NNPP3Pe6Seeuvcps+eCRdfds+bos+7aV8EfHvD6jvjm9/cr
++mTra/cd8MyGFS+u7Lz3nl/9MGn3JfFTUINy6GGLz9+j7rxJTf2kMe+8Jd54
+5F0fvLn3f0d/P+uaPRafeGlt3ZJPH7lx8epb/7DHwOLzFqGfalf8esCXlylf
+lB16xa91R353UMOADYua1u3/w0MXrfi/aX0eHz1mvfRSqOKj4Y9XTDzooIqu
+Q2eve7Ns4Xljrlm18r7BtzX37nH/jf2PunzRYR9+37/lturnrr5q6y/Hffbh
+tq/PuuarXQ8aU7ntzP5XLN5n65TzhGndj3qsz+Fdlj7/v1efnvz5HuGTTpj5
+ckPp0Id6il9tvnlt5PhD61ZUL3vt+MM3rP6vsmK/ua8oP46Kf/Hei1N7Lf3s
++B9vrVtYiw8dftGFp6y4eWXj00N7n3HlZUv3/vS+Y+6AZ8sn1Ty78vj9/773
+bRWfPdVpv8knPn/BrTOv3DhyxlUnLV3W66Kbxaf+78nfnt75q8lPzTim9sY5
+30857PE7zvzz3Fv++tEP+576yHF1Z3Xq2/jA8NO+6f75if+Rdn1EnDflxbN/
+P+vyk1fOOn3fh9+MHRqa8M6zE8o2HDjrD9ef9sak4Uv/c2jVx/8+uNd9NS8e
+J84ZVfTL7x/766U9bu189KaHr/rDZnTDZS/d+/qEa++4sXHc34e8M//2uadd
+99w+vdYJV951700njll/+0Nfrz9tvxVH3DDmvOvuH3v91N1Peqv10j1Klg+7
+feVzry/eemr/vRv/+Kdf/1L3vyEHL57/bY/fDtu4+bTFU68duK1aXn900bjK
+M05Y/db91zzy+9C+Dcfv3XvdP98893eduh7/9V/2vmH5ss/2fyh2+LaWizeX
+T+j99sK/96s8YcWW8r/8+F2PSV/979suj6169LfC8m37S1duP7/zlb2Hv7/H
+yucmdx2x+fmx945c9W6435RVv9wy6revPvzFRxPeuXT/v15104V/GHjGp5c+
+3qNq87d/6jy9+eRnvht64w+91qyunLD0rWWndup57nfXnvPiz3Xrvnpxwgf7
+xL9/cMcph/SLvtvjS7zblotf//lvl/z8tw9+vHi3/1187Q8XX7vl4mt/vLjb
+386acIM8ou6u1bs+W7P4Y2HKMz+/vvidjzc+WfTWntvfO+y/ZXO/f+mIQ/60
+7x4X9rj6nC++3hv/79Rth60/ar/Rl/z19m0zjl3ScGVXYeh70V5P7vnO6c8t
++fDh72v6fvbrbmXD/rbLVQsO7BF+ba/7p1w+c/TFA8Y9e+2d95+1re7ZcSuH
+nnP8/ANP7PXMmrfXLoxse+OMfz1497df7gV2LPrH258/UfJ1p8t6PLrtwHm3
+nX5TqOyfX537+ZMTfr/oloYHfuw945ep3a8b+9a6e2776uz/3LXo0atvUp5Z
+XFr5J3x597cG3PzIZdP/tdfiAyZvqRlw3FUXPfx5j7sP6TTi3ZMP2hr74MZu
+1/QY/NT6vQa+c9vsg5RjZ/x4zaffD3n2vM0bjr5xh1B9RXPV8U8manznEtJC
+nDD0rAXzhx0/a+GC048/a8GZc+fPP2n23uQUqfHfHrvt9H+Oqtj+K97Wd9H+
+0cvAu19+dE60+Ko9v5rVuOnhOX+NC7Xw+Yoh/73z7a8/GvHEBzt+XXb54G9q
+X5z68KiJo4oGzrts+KctH64c/cy98lXlq6o//uOXH94365vP34L/mvzzj69f
+2/fDUeMrP1EOfK3rC5ddXjpz0YQpj6/eftNxtyzvessBCweNOa/qwwPXdlvw
+l/Omj/jsntvf//D4iTXfj/x52Sh47sI9tk3q1X/Ytl5/v/I/y1edfsGjYvlX
+n9+7uHbO3D/VzF/Z88Auw8afXbfguUdO+/jd/besfGjJPVfceuvq8LsL5yz6
+vEf50BUfdX7pxP733Tth45ayAfuKx/5JWVn39vexHf/9YNvIR/7zw6tdxywG
+L65p7vPRmtd3Wb7x4TNm/udPRxz82c13zH39X+LSJ9ZsHPrY79ZHD/l0ZvGJ
+/eurr3/3i596LHiytfk3H93b+NFRC84/Y0205LY7f7yw/oKKa0b989XXnp/x
+13uuOL1z72MGNB76+CU3nr7y0He29DvnxAceubO079S/P3ji8rFfg73mXjOk
+Yvz+/y6/v/fizqef+O+i2PvRLbVf7Dp3xb5XXvGnu19p2f+pPofd+9AudYtf
+rV26y5Svxatv/+q8PzW0HjBe3vbIanHM01d2/uS1N/8675kp859tXvNo4wLw
+4T+V3S5cdtdzQ4Xn39/+809PLK3r9dH85UM+2OeEJaeds/HIqx+ZcF/fXfd9
+a/HBZcvnyV3+UHf1bpWPVT/TuVfZ9r4b/3nFiCN7vP7+UdGnhk84dtINi+cU
+3Tv04Z7zLv0VHfbEbf9Y8+2HXa79w27dX/4iVj5t09JNv6v4eF7Pt7/bvfPr
+tx/yydq1H0x/cNOgWzYN+mTToMs2DXp906AHNg3676ZBF78ySNk0a2Tvbk0b
+mr97c8Cv3x7Wd8z5F9zz/WH/+0+f4+7atmnLj/99csfmzS+eunDMv7af+eEh
+PZ9cdujAwZ/dPufY+wesbj6x/LnqVdv6PDdh7MKjDutbX39xc4/yD/7X/Ptu
+j8Dpr264SrindPS6Litu/bjlognP3Tdnw2XS3Efv233ro/P2HALPHNPS0ve3
+D65fcMtDXX5zQ7d7bloX++a4SXMPCX8Tfajsgc7hjZdNfubb4pf6HNZj+2Or
+e1Tcvzreb8+yZ0457IP5vXZcfeTvdnvmoshd73R59YHzXy665G75/Q1nz7zw
+2V8Pmn7hwVe//OQHGw749y9r7+7/4v9O+GDE049XvfRx/0VdFt6gnPbqyad8
+efilW+bc1mf7xF8O33VCzb/nfnBj6WfH7b0xPvnxoTfs+Pf00Zcvf/Pxe2e+
+vPziNx/vfOR/N818+ecVb85bP/Pl96K/+WbVmw/eO/MQEvRg5yNf3zTzEBI0
+e/3MQ0jQV6veXH/vzEtI0PrOR36yaeYlJGjO+pmXkKCvV13x1oy7H/zohNse
+2jD5m1VXvFd8d11F+avjBw45cv9+u9b89pTdHnxj05yB56OLex71wvz7pr4X
+vW3EiQ9d/tX2M18ZP/mmtzr9EN3zz33mfbXLv1D5tKNr197w9LouM4f2WfXQ
+/Luuv6FL94fPPuzv3S6d1GXery+NufOLt8aOu2f6njffMHHcqLU/Dn/m3n2K
+6Im/3HvDxC37rf3xgWV/OfM39MRv7rmh5s/kxH8vv/OF1Z27P3TkF9O/vii0
+V5dTfh1dfPIvnzbcdMrCsrv3vSE09LPXp331vbz4sUNv/s/BN348c92fQ7MO
+26uh5PsHn/p0bnjQhuu3XHXAPejNV++dUnv9mbGvf3fooDVHdJn26+CfpTNe
+aLzzxj8Pahr5GQk+8eDaa0lweBic+frZ0R+bzv7kb2/uOHAukfrC1TN+88q5
+jdfHplx6w+FHfvf135bc91H0qMjto9/4+eo/yE8/WP7gBSdvaRp6mnTPjVc8
+EDt4t9pvvvj75VH181548KM/zHnhutILpm2+ZcJNFb+sbZ0QHjNo6/9tH7vH
+1v/bgKwHoVH7dviGS0sv+GHxqmtaJxTL1sPypjfO+WjCo9PmfHRDWe+jpc+v
++MMT/568avL/pn6+/cIPn+jy2LZFj6z+16ovhp92xl79dl+2ZaG490cnjDx6
+0udd9h08ZOPtfT9f98iTB+xx7V0Lzlhx+zF73fLNfS/sfWhtY98/rTn29YrI
+G/Hysb23zHrq/tV73NH9jrOapm97tHreX9cdemD1h5u3d7nswPo7nnzq3V7X
+dFk86N3qw8/u2vWJD2/9V9+ts+5+5mPx3D80nPxM+R0Lnviq+8gzwD/LP2k5
+drcjuo/Zv25J8W2/P3H1P6b0WnvPij4NH6z7etkNMxf8/Vr4/eOj6iYtXThc
+GDfjw/iS2pEbvhv74azvP/tdp4unX75/n2kXFFXds23d07+cu/vZ/Rq2TNty
+4MW7XDngo2UP3dLzp5mvHfLkivtP/uyXm9f/dv4jkSdavzr5p0ee++u2f776
+yKVfbNp//quvbl949k83PvBg6YHbPhF/3Rx6b5d+Nz1zw109e375vw8PP3zd
+VGHha7F3zxkQvuanhVNjR00YEP75krfrhIe3rnljv39/8O6P+33w9HN/e/3d
+z3Y58bHX3z5qy/4vHzfg3W9G/bH3Sff+dsudJ9/7QrfrT3to/5cePvL7Gy++
+v/fkD957Y/Xrd00ectoeI08dOPK0gSPnDhz5+4EjTxn454cuP+LoFwaOfvTP
+fz63/wuPN9x93cjP9xn54rJF52878JMrPjnw5e/eWxu/+O3x4eMe33fQ5o+v
+uCV+0YyTot+9cNVdz+11/F/63Hveo+c+/v1nXyefuPKzg7Z/tWj6qO8eu/zi
+774oHnzZvTfs98DQ/04df83noZcf2fjG7JnL5i6aW3HCqJGn/PjnE3Z9+fWj
+fn7t1tClFatmvrv9k2MX3vX6xj0OGTvzvanbui756ZZvvhx+z2tnzJ5x6UtD
+yn5ZVfT97EEXXH38rCsf+nTGzejNh05/73ev7P/E776PTXq0vrhvaf+Jx7y8
+5t+Ry887teTjVyZFTlrw6Z6df3tf7J6+q09vOXi3LiumTFx7/egZry6/uubi
+HqFv51eN/emC89Z0e2vd5Acu2e+eZ3964K3z/nv+yAOrUI8t5121aPyUi5un
+HH3aPd/usXeXgx97b/Z7dbutGHtuvy9PHfDqG988cGnPC6+d8Nlj5wz57Ndj
+b/9qwtvP/OU/5cNf2DT7tv3EymmNl73T8OuMPz6w6+Otdz134MIxXYsrVk09
+O/TV8PvmzXx7Vb305IxRR5/50oG9dyx84ejmo3cf8cjQP347ZM8t+75yRc9b
+Dn3v+s9fGfrX8y/Z54na9RfefO2oYQNPf/Cy9X3eXPlIwx0PvN7ptMvvWvXs
+VZv/uuaYV5696vWfPpvy6HWvfvWfpl9v/8/06Y9O6/7jxqfe/Wzev6LP7bm0
+9PqXbzz6jHXH974kevNRS84946dfasfvOvOOb6///cCrzr+qz/nffrN8h1g5
+Yv3IcnD+xcWaedV89GhidOURUbG/IEfFKfm6vwQERMzLNB+AGqUyELH5g/5V
+06/N6ofMdZM0d8AgDgRI759yB/LhVqb9hwZZqMMKlNJ8UMGyIi4F/Uwf6ldd
+R/qLR8Fk0UyHxP1B8h3IB1ei29A68wff8wyQgvp8K5AncBXuAAHaEcL6F5EN
+s7oBNB2zQGm2AnILyI4orzoECOA/2k83Ka/2ShJy3lXA9KDYRMqAwnl0DhHm
+tLTSAXunRm7gQS7FshdBkesCDnN8v50EMN8KuENFvhUI4DtQwVAODgz7AH7D
+fS+lHQPnW4EAAQoAPpjQKFsBsi6Esh+1HDH9IZmkJwVYz/DAkAnpF8F823QB
+2cq0JMWIoiNjDGuA9YwthEyKpQ2whQKcJdb8jHODBh9khu2jBAiQI/hgrWQx
+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
+cg==
+
+    
+    
+    
+    </embedded_sof_file>
+  </embedded_sof_files>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget height" value="93"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <single attribute="sof manager visible" value="0"/>
+    <multi attribute="column width" size="23" value="34,34,95,74,68,70,88,88,98,98,88,88,110,101,101,101,101,101,101,101,101,107,78"/>
+    <multi attribute="frame size" size="2" value="1133,887"/>
+    <multi attribute="jtag widget size" size="2" value="320,120"/>
+  </global_info>
+</session>

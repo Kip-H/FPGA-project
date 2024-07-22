@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="de0_memory">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|ram_dual_16x8:u_ram_dual_16x8|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vtn1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

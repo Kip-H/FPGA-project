@@ -1,0 +1,1 @@
+{ "Warning" "WMLS_MLS_STUCK_PIN_HDR" "" "Output pins are stuck at VCC or GND" {  } {  } 0 13024 "Output pins are stuck at VCC or GND" 1 0 "Quartus II" 1 -1 1714809175579 ""}

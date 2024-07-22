@@ -1,0 +1,10 @@
+
+State Machine - |top|byte2ascill:u_byte2ascill|c_state
+Name c_state.W3 c_state.S3 c_state.W2 c_state.S2 c_state.W1 c_state.S1 c_state.IDLE 
+c_state.IDLE 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 1 1 
+c_state.W1 0 0 0 0 1 0 1 
+c_state.S2 0 0 0 1 0 0 1 
+c_state.W2 0 0 1 0 0 0 1 
+c_state.S3 0 1 0 0 0 0 1 
+c_state.W3 1 0 0 0 0 0 1 

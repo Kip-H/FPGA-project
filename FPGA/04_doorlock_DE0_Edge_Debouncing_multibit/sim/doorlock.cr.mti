@@ -1,0 +1,43 @@
+D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/top.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/bd_if.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/bd_if.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bd_if
+
+Top level modules:
+	bd_if
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/fnd.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/fnd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fnd
+
+Top level modules:
+	fnd
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/edge_det_p.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/edge_det_p.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module edge_det_p
+
+Top level modules:
+	edge_det_p
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/doorlock.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/doorlock.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module doorlock
+
+Top level modules:
+	doorlock
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_doorlock
+
+Top level modules:
+	tb_doorlock
+
+} {} {}}

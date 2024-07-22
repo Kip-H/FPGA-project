@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Windows/System32/2_keti/0_Project/1_HPGP_Turbo/sim
+vbd_if
+Z0 !s110 1711439790
+!i10b 1
+!s100 GeF?KazIY32h=Z?:RM^cH0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]7BOiC?f_0B3]CP25Hn821
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim
+w1711439382
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/bd_if.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/bd_if.v
+!i122 356
+L0 1 117
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1711439790.000000
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/bd_if.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/bd_if.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vdebounc_multi_1
+R0
+!i10b 1
+!s100 Ol4=a:LPkN6Don3XE[>l?2
+R1
+IP^FKB<:7fnkmD6hQCYB2:1
+R2
+R3
+w1711439742
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_1.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_1.v
+!i122 357
+Z8 L0 1 50
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_1.v|
+!i113 1
+R6
+R7
+vdebounc_multi_2
+R0
+!i10b 1
+!s100 bTDCH>69N3F>GB:QQXC7^1
+R1
+I2Wg<n=o4SjiIZI`n10@7Z0
+R2
+R3
+w1711439765
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_2.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_2.v
+!i122 358
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_2.v|
+!i113 1
+R6
+R7
+vdebounc_multi_3
+Z9 !s110 1711439791
+!i10b 1
+!s100 PKBGFS;=fHZmXaOh`eU[D1
+R1
+IX3N[;YWdUldY4oXWDb?1M1
+R2
+R3
+w1711439782
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_3.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_3.v
+!i122 359
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/debounc_multi_3.v|
+!i113 1
+R6
+R7
+vdoorlock
+R9
+!i10b 1
+!s100 LYAAMBdo;n0ZJgHNmRHi90
+R1
+ITIdz@gZ?1aa0@]`geQ60j3
+R2
+R3
+w1711019288
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/doorlock.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/doorlock.v
+!i122 360
+L0 1 92
+R4
+r1
+!s85 0
+31
+Z10 !s108 1711439791.000000
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/doorlock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/doorlock.v|
+!i113 1
+R6
+R7
+vedge_det_p
+R9
+!i10b 1
+!s100 1]5:0HlXC<BRFY;TPR3mT2
+R1
+IGb`CLKYa8b[6D;JUMAm3o3
+R2
+R3
+w1711019526
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/edge_det_p.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/edge_det_p.v
+!i122 361
+L0 1 28
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/edge_det_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/edge_det_p.v|
+!i113 1
+R6
+R7
+vfnd
+R9
+!i10b 1
+!s100 D5JFaOL;O^=VGbVeM>82c3
+R1
+I2EReQ:AJ:K6egWPhSDme61
+R2
+R3
+w1709728918
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/fnd.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/fnd.v
+!i122 362
+L0 1 26
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/fnd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/fnd.v|
+!i113 1
+R6
+R7
+vtb_doorlock
+R0
+!i10b 1
+!s100 []i:1gzG;X>;L4o309L;k2
+R1
+IamA;>ng494PR>H4_b7VHS0
+R2
+R3
+w1711435076
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v
+!i122 355
+L0 5 427
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v|
+!i113 1
+R6
+R7
+vtop
+R9
+!i10b 1
+!s100 B1T5;:D^SRATT9_aLRR[;3
+R1
+IZ7k2Fg]J5Xgz`07P:Jjg>2
+R2
+R3
+w1711030489
+8D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/top.v
+FD:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/top.v
+!i122 363
+L0 1 58
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/top.v|
+!i113 1
+R6
+R7

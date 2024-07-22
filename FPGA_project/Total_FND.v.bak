@@ -1,0 +1,38 @@
+module TotalFND (
+    input wire morning_signal,
+    input wire after_signal,
+    input wire clk,
+    input wire n_rst,
+    output reg [6:0] fnd1,  
+    output reg [6:0] fnd2,  
+    output reg [6:0] fnd3   
+);
+
+    localparam [6:0] CHAR_A = 7'b000_1000;
+    localparam [6:0] CHAR_P = 7'b100_1000;
+    localparam [6:0] CHAR_MINUS = 7'b011_1111;
+
+    always @(posedge clk or negedge n_rst) begin
+        if (!n_rst) begin
+            fnd1 <= 7'h00;
+            fnd2 <= 7'h00;
+            fnd3 <= 7'h00;
+        end 
+        else begin
+            if (morning_signal) begin
+                fnd1 <= CHAR_A;      // 'A
+                fnd2 <= CHAR_MINUS;  // '-'
+                fnd3 <= CHAR_P;      // 'P'
+            end else if (after_signal) begin
+                fnd1 <= CHAR_P;      // 'P'
+                fnd2 <= CHAR_MINUS;  // '-'
+                fnd3 <= CHAR_A;      // 'A'
+            end else begin
+                fnd1 <= 7'h00;
+                fnd2 <= 7'h00;
+                fnd3 <= 7'h00;
+            end
+        end
+    end
+
+endmodule

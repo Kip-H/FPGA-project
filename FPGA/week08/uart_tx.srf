@@ -1,0 +1,2 @@
+{ "" "" "" "Verilog HDL Always Construct warning at byte2ascii.v(32): inferring latch(es) for variable \"buf_data_out\", which holds its previous value in one or more paths through the always construct" {  } {  } 0 10240 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Node: byte2ascill:u_byte2ascill\|c_state.W1 was determined to be a clock but was found without an associated clock assignment." {  } {  } 0 332060 "" 0 0 "Quartus II" 0 -1 0 ""}

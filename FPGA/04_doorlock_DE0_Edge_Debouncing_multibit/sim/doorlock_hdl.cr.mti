@@ -1,0 +1,71 @@
+../rtl/doorlock_hdl.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/doorlock_hdl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module doorlock_hdl
+
+Top level modules:
+	doorlock_hdl
+
+} {} {}} ../rtl/doorlock_fixed.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/doorlock_fixed.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module doorlock_fixed
+
+Top level modules:
+	doorlock_fixed
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/sim/tb_doorlock_hdl.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/sim/tb_doorlock_hdl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_doorlock_hdl
+
+Top level modules:
+	tb_doorlock_hdl
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/sim/tb_doorlock_fixed.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/sim/tb_doorlock_fixed.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_doorlock_fixed
+
+Top level modules:
+	tb_doorlock_fixed
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/doorlock_fixed.v {1 {vlog -work work -stats=none {D:\Windows\System32\4_class\Verilog\2024_FPGA\02_doorlock_hdl\rtl\doorlock_fixed.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module doorlock_fixed
+
+Top level modules:
+	doorlock_fixed
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/fnd.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/fnd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fnd
+
+Top level modules:
+	fnd
+
+} {} {}} D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/doorlock_hdl.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/doorlock_hdl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module doorlock_hdl
+
+Top level modules:
+	doorlock_hdl
+
+} {} {}} ../rtl/fnd.v {1 {vlog -work work -stats=none D:/Windows/System32/4_class/Verilog/2024_FPGA/02_doorlock_hdl/rtl/fnd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fnd
+
+Top level modules:
+	fnd
+
+} {} {}} ./tb_doorlock_hdl.v {1 {vlog -work work -stats=none {D:\Windows\System32\4_class\Verilog\2024_FPGA\02_doorlock_hdl\sim\tb_doorlock_hdl.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_doorlock_hdl
+
+Top level modules:
+	tb_doorlock_hdl
+
+} {} {}} ./tb_doorlock_fixed.v {1 {vlog -work work -stats=none {D:\Windows\System32\4_class\Verilog\2024_FPGA\02_doorlock_hdl\sim\tb_doorlock_fixed.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_doorlock_fixed
+
+Top level modules:
+	tb_doorlock_fixed
+
+} {} {}}

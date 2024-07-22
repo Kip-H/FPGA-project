@@ -1,0 +1,167 @@
+# Compile of tb_doorlock.v was successful.
+# Compile of bd_if.v was successful.
+# Compile of debounc_multi_1.v was successful.
+# Compile of debounc_multi_2.v was successful.
+# Compile of debounc_multi_3.v was successful.
+# Compile of doorlock.v was successful.
+# Compile of edge_det_p.v was successful.
+# Compile of fnd.v was successful.
+# Compile of top.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.tb_doorlock
+# vsim work.tb_doorlock 
+# Start time: 16:46:36 on Mar 26,2024
+# Loading work.tb_doorlock
+# Loading work.top
+# Loading work.bd_if
+# Loading work.debounc_multi_1
+# Loading work.debounc_multi_2
+# ** Error: (vsim-3033) Instantiation of 'debounc_multi_3' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_doorlock/u_top/u_bd_if File: D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/rtl/bd_if.v Line: 63
+#         Searched libraries:
+#             D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/work
+# Loading work.edge_det_p
+# Loading work.fnd
+# Loading work.doorlock
+# Error loading design
+# End time: 16:46:37 on Mar 26,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+# Compile of tb_doorlock.v was successful.
+# Compile of bd_if.v was successful.
+# Compile of debounc_multi_1.v was successful.
+# Compile of debounc_multi_2.v was successful.
+# Compile of debounc_multi_3.v was successful.
+# Compile of doorlock.v was successful.
+# Compile of edge_det_p.v was successful.
+# Compile of fnd.v was successful.
+# Compile of top.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.tb_doorlock
+# vsim work.tb_doorlock 
+# Start time: 16:47:14 on Mar 26,2024
+# Loading work.tb_doorlock
+# Loading work.top
+# Loading work.bd_if
+# Loading work.debounc_multi_1
+# Loading work.debounc_multi_2
+# Loading work.debounc_multi_3
+# Loading work.edge_det_p
+# Loading work.fnd
+# Loading work.doorlock
+add wave -position insertpoint sim:/tb_doorlock/*
+run -all
+# Open :           5 
+# ** Note: $stop    : D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v(409)
+#    Time: 15114 ns  Iteration: 0  Instance: /tb_doorlock
+# Break in Module tb_doorlock at D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v line 409
+add wave -position insertpoint sim:/tb_doorlock/u_top/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# Open :           5 
+# ** Note: $stop    : D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v(409)
+#    Time: 15114 ns  Iteration: 0  Instance: /tb_doorlock
+# Break in Module tb_doorlock at D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v line 409
+# Compile of tb_doorlock.v was successful.
+# Compile of bd_if.v was successful.
+# Compile of debounc_multi_1.v was successful.
+# Compile of debounc_multi_2.v was successful.
+# Compile of debounc_multi_3.v was successful.
+# Compile of doorlock.v was successful.
+# Compile of edge_det_p.v was successful.
+# Compile of fnd.v was successful.
+# Compile of top.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_doorlock
+# Loading work.top
+# Loading work.bd_if
+# Loading work.debounc_multi_1
+# Loading work.debounc_multi_2
+# Loading work.debounc_multi_3
+# Loading work.edge_det_p
+# Loading work.fnd
+# Loading work.doorlock
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# Open :           5 
+# ** Note: $stop    : D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v(409)
+#    Time: 15114 ns  Iteration: 0  Instance: /tb_doorlock
+# Break in Module tb_doorlock at D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v line 409
+add wave -position insertpoint  \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/T_20MS \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/D_W \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/clk \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/n_rst \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/din \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/dout \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/cnt \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/cnt_restart \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/din_d1 \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt0_debounc/dout_rdy
+add wave -position insertpoint  \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/T_20MS \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/D_W \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/clk \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/n_rst \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/din \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/dout \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/cnt \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/cnt_restart \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/din_d1 \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt1_debounc/dout_rdy
+add wave -position insertpoint  \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/T_20MS \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/D_W \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/clk \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/n_rst \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/din \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/dout \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/cnt \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/cnt_restart \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/din_d1 \
+sim:/tb_doorlock/u_top/u_bd_if/u_bt2_debounc/dout_rdy
+restart
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# Open :           5 
+# ** Note: $stop    : D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v(409)
+#    Time: 15114 ns  Iteration: 0  Instance: /tb_doorlock
+# Break in Module tb_doorlock at D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v line 409
+# Compile of tb_doorlock.v was successful.
+# Compile of bd_if.v was successful.
+# Compile of debounc_multi_1.v was successful.
+# Compile of debounc_multi_2.v was successful.
+# Compile of debounc_multi_3.v was successful.
+# Compile of doorlock.v was successful.
+# Compile of edge_det_p.v was successful.
+# Compile of fnd.v was successful.
+# Compile of top.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_doorlock
+# Loading work.top
+# Loading work.bd_if
+# Loading work.debounc_multi_1
+# Loading work.debounc_multi_2
+# Loading work.debounc_multi_3
+# Loading work.edge_det_p
+# Loading work.fnd
+# Loading work.doorlock
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# Open :           5 
+# ** Note: $stop    : D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v(409)
+#    Time: 15114 ns  Iteration: 0  Instance: /tb_doorlock
+# Break in Module tb_doorlock at D:/Windows/System32/4_class/Verilog/2024_FPGA/04_doorlock_DE0_Edge_Debouncing_multibit/sim/tb_doorlock.v line 409
